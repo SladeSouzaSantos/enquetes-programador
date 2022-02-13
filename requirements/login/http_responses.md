@@ -9,7 +9,7 @@
 
 > ## Erros
 1. Bad request - 400 (X)
-2. Unauthorized - 401 ()
+2. Unauthorized - 401 (X)
 3. For bidden - 403 ()
 4. Not found - 404 ()
 5. Internal server error - 500 (X)
