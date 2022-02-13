@@ -8,7 +8,7 @@
 5. No content - 204 e resposta sem dados (X)
 
 > ## Erros
-1. Bad request - 400 ()
+1. Bad request - 400 (X)
 2. Unauthorized - 401 ()
 3. For bidden - 403 ()
 4. Not found - 404 ()
