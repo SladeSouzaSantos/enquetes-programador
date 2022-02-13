@@ -119,6 +119,15 @@ void main(){
 
     });
 
+    test("Should return ForBiddenError if post returns 403", () async{
+      mockResponse(403);
+
+      final future = sut.request(url: url, method: "post");
+
+      expect(future, throwsA(HttpError.forBidden));
+
+    });
+
     test("Should return ServerError if post returns 500", () async{
       mockResponse(500);
 
