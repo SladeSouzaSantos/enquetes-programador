@@ -11,7 +11,7 @@
 1. Bad request - 400 (X)
 2. Unauthorized - 401 (X)
 3. For bidden - 403 (X)
-4. Not found - 404 ()
+4. Not found - 404 (X)
 5. Internal server error - 500 (X)
 
 > ## Exceção - Status code diferente dos citados acima
