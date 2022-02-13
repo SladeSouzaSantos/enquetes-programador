@@ -12,10 +12,10 @@
 2. Unauthorized - 401 ()
 3. For bidden - 403 ()
 4. Not found - 404 ()
-5. Internal server error - 500 ()
+5. Internal server error - 500 (X)
 
 > ## Exceção - Status code diferente dos citados acima
-1. Internal server error - 500 ()
+1. Internal server error - 500 (X)
 
 > ## Exceção - Http request deu alguma exceção
 1. Internal server error - 500 ()
