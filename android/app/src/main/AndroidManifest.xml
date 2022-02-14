@@ -1,8 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.enquetes.programadores.curso.enquetes_programadores">
    <application
-        android:label="enquetes_programadores"
-        android:name="${applicationName}"
+        android:label="Enquetes Programadores"
+        android:name="io.flutter.app.FlutterApplication"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
