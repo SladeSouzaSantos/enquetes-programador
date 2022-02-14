@@ -7,6 +7,7 @@ class LoginHeader extends StatelessWidget {
     return Container(
       child: Image(image: AssetImage("lib/ui/assets/logo.png"),),
       height: 240,
+      padding: EdgeInsets.all(40),
       margin: EdgeInsets.only(bottom: 32),
       decoration: BoxDecoration(
           gradient: LinearGradient(
