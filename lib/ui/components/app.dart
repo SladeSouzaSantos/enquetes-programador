@@ -53,7 +53,7 @@ class App extends StatelessWidget {
           padding: EdgeInsets.symmetric(vertical: 10, horizontal: 20)
         ),
       ),
-      home: LoginPage(),
+      home: LoginPage(null),
     );
   }
 }
