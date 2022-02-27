@@ -5,7 +5,7 @@
 2. O botão de fazer login deve começar desabilitado (X)
 3. Após digitar algo em um campo, a mensagem de erro só deve sumir se o campo for válido ()
 4. Validar e-mail quando o usuário digitar no campo (X)
-5. Monstrar mensagem de erro se o e-mail for inválido ()
+5. Monstrar mensagem de erro se o e-mail for inválido (X)
 6. Remover mensagem de erro se o e-mail for válido ()
 7. Validar senha quando o usuário digitar no campo (X)
 8. Monstrar mensagem de erro se o senha for inválido ()
