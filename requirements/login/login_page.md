@@ -3,10 +3,10 @@
 >##Regras
 1. Os campos devem começar sem exibir mensagens de error (X)
 2. O botão de fazer login deve começar desabilitado (X)
-3. Após digitar algo em um campo, a mensagem de erro só deve sumir se o campo for válido ()
+3. Após digitar algo em um campo, a mensagem de erro só deve sumir se o campo for válido (X)
 4. Validar e-mail quando o usuário digitar no campo (X)
 5. Monstrar mensagem de erro se o e-mail for inválido (X)
-6. Remover mensagem de erro se o e-mail for válido ()
+6. Remover mensagem de erro se o e-mail for válido (X)
 7. Validar senha quando o usuário digitar no campo (X)
 8. Monstrar mensagem de erro se o senha for inválido ()
 9. Remover mensagem de erro se a senha for válida ()
