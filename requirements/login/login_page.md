@@ -11,7 +11,7 @@
 8. Monstrar mensagem de erro se o senha for inválido (X)
 9. Remover mensagem de erro se a senha for válida (X)
 10. Habilitar o botão de fazer login, caso todos os campos sejam válidos (X)
-11. Desabilitar o botão de fazer login, caso haja um campo inválido ()
+11. Desabilitar o botão de fazer login, caso haja um campo inválido (X)
 12. Exibir loading no inicio da ação de login ()
 13. Autenticar usuário com e-mail e senha informados no formulário ()
 14. Exibir mensagem de erro, caso o login falhe ()
