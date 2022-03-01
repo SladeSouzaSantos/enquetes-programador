@@ -16,4 +16,4 @@
 13. Chamar o método de autenticar (X)
 14. Exibir mensagem de erro, caso o login falhe (X)
 15. Esconder loading no fim da ação do login (X)
-16. Fechar streams quando a página for encerrada ()
+16. Fechar streams quando a página for encerrada (X)
