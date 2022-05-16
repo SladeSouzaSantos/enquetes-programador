@@ -1,7 +1,6 @@
 import 'dart:async';
 
-import 'package:enquetes_programadores/domain/helpers/domain_error.dart';
-
+import '../../domain/helpers/domain_error.dart';
 import '../../domain/usecases/authentication.dart';
 
 import '../protocols/protocols.dart';
