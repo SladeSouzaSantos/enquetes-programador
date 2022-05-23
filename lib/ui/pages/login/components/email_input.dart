@@ -9,7 +9,7 @@ class EmailInput extends StatelessWidget {
     final presenter = Provider.of<LoginPresenter>(context);
 
     return StreamBuilder<String>(
-      stream: presenter.emailErrorStream,
+      stream: presenter?.emailErrorStream,
       builder: (context, snapshot){
         return TextFormField(
           decoration: InputDecoration(
@@ -18,7 +18,7 @@ class EmailInput extends StatelessWidget {
               errorText: snapshot.data?.isEmpty == true ? null : snapshot.data,
           ),
           keyboardType: TextInputType.emailAddress,
-          onChanged: presenter.validateEmail,
+          onChanged: presenter?.validateEmail,
         );
       },
     );
