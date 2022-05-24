@@ -14,13 +14,13 @@ void main(){
   HttpClientSpy httpClient;
   String url;
   RemoteAuthentication sut;
-  AuthenticantionParams params;
+  AuthenticationParams params;
 
   setUp((){
     httpClient = HttpClientSpy();
     url = faker.internet.httpUrl();
     sut = RemoteAuthentication(httpClient: httpClient, url: url);
-    params = AuthenticantionParams(email: faker.internet.email(), secret: faker.internet.password());
+    params = AuthenticationParams(email: faker.internet.email(), secret: faker.internet.password());
   });
 
   test("Should call HttpClient with correct URL", () async{

@@ -4,17 +4,17 @@ import 'package:meta/meta.dart';
 import '../entities/entities.dart';
 
 abstract class Authentication{
-  Future<AccountEntity> auth(AuthenticantionParams params);
+  Future<AccountEntity> auth(AuthenticationParams params);
 }
 
-class AuthenticantionParams extends Equatable{
+class AuthenticationParams extends Equatable{
   final String email;
   final String secret;
 
   @override
   List get props => [email, secret];
 
-  AuthenticantionParams({
+  AuthenticationParams({
     @required this.email,
     @required this.secret
   });

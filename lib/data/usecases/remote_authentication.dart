@@ -14,7 +14,7 @@ class RemoteAuthentication implements Authentication{
     @required this.url
   });
 
-  Future<AccountEntity> auth(AuthenticantionParams params) async{
+  Future<AccountEntity> auth(AuthenticationParams params) async{
     final body = RemoteAuthenticantionParams.fromDomain(params).toJson();
 
     try{
@@ -40,7 +40,7 @@ class RemoteAuthenticantionParams{
     @required this.password
   });
 
-  factory RemoteAuthenticantionParams.fromDomain(AuthenticantionParams params) => RemoteAuthenticantionParams(
+  factory RemoteAuthenticantionParams.fromDomain(AuthenticationParams params) => RemoteAuthenticantionParams(
     email: params.email,
     password: params.secret
   );

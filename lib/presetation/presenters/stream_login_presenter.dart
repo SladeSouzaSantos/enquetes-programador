@@ -54,7 +54,7 @@ class StreamLoginPresenter implements LoginPresenter{
     _update();
 
     try{
-      await authentication.auth(AuthenticantionParams(email: _state.email, secret: _state.password));
+      await authentication.auth(AuthenticationParams(email: _state.email, secret: _state.password));
     }on DomainError catch(error){
       _state.mainError = error.description;
     }
