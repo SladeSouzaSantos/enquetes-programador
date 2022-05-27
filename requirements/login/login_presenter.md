@@ -18,7 +18,7 @@
 15. Notificar o isLoadingStream como false no fim do Authentication (X)
 16. Notificar o mainErrorStream caso o Authentication retorne erro (X)
 17. Fechar todos os Streams no dispose (X)
-18. Gravar o Account no cache em caso de sucesso ()
+18. Gravar o Account no cache em caso de sucesso (X)
 19. Notificar o mainErrorStream caso o SaveCurrentAccount retorne erro ()
 20. Levar o usuário pra tela de Enquetes em caso de sucesso ()
 21. Levar o usuário pra tela de Criar Conta ao clicar no link de criar conta ()
