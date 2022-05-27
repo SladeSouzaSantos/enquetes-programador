@@ -30,7 +30,7 @@ class _LoginPageState extends State<LoginPage> {
       backgroundColor: Color.fromRGBO(252, 227, 138, 1),
       body: Builder(
         builder: (context){
-          widget.presenter?.isLoadingStream?.listen((isLoading) {
+          widget.presenter.isLoadingStream.listen((isLoading) {
             if(isLoading){
               showLoading(context);
             }else{
@@ -38,7 +38,7 @@ class _LoginPageState extends State<LoginPage> {
             }
           });
 
-          widget.presenter?.mainErrorStream?.listen((error) {
+          widget.presenter.mainErrorStream.listen((error) {
             if(error != null){
               showErrorMessage(context, error);
             }

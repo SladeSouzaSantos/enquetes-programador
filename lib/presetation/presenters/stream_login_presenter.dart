@@ -14,6 +14,7 @@ class LoginState{
   String password;
   String emailError;
   String mainError;
+  String navigateToStream;
   String passwordError;
 
   bool isLoading = false;
@@ -30,6 +31,7 @@ class StreamLoginPresenter implements LoginPresenter{
   Stream<String> get emailErrorStream => _controller?.stream?.map((state) => state.emailError)?.distinct();
   Stream<String> get passwordErrorStream => _controller?.stream?.map((state) => state.passwordError)?.distinct();
   Stream<String> get mainErrorStream => _controller?.stream?.map((state) => state.mainError)?.distinct();
+  Stream<String> get navigateToStream => _controller?.stream?.map((state) => state.navigateToStream)?.distinct();
   Stream<bool> get isFormValidStream => _controller?.stream?.map((state) => state.isFormValid)?.distinct();
   Stream<bool> get isLoadingStream => _controller?.stream?.map((state) => state.isLoading)?.distinct();
 
